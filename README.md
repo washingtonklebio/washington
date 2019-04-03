@@ -1,1 +1,1 @@
-Funções, anotações e exemplos. Linux, JavaScript, MySQL, Vue.js, PHP. 
+Funções, anotações e exemplos. Linux, JavaScript, jQuery, MySQL, Vue.js, PHP. 
