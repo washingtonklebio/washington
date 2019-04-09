@@ -1,0 +1,2 @@
+Ver chave ssh da máquina 
+cat /root/.ssh/id_rsa.pub
