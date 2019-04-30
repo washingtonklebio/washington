@@ -1,5 +1,11 @@
-Ver chave ssh da máquina 
+# Ver chave ssh da máquina 
 cat /root/.ssh/id_rsa.pub
 
-Instalar Xvfb
+# Listar links simbolicos
+ls -l /usr/bin/python
+
+# Alterar links simbolicos
+ln -sf /usr/bin/python3.6 /usr/bin/python
+
+# Instalar Xvfb
 dnf -y install xorg-x11-server-Xvfb
