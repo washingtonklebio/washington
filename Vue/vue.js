@@ -3,3 +3,5 @@
 v-once
 # Interpreta o HTML
 v-html="html"
+# Escuta eventos 
+v-on:evento="função"
