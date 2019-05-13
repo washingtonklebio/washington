@@ -5,6 +5,8 @@ v-once
 v-html="html"
 # Escuta eventos 
 v-on:evento="função"
+# Two way binding
+v-model
 
 [MODIFICADORES DE EVENTOS]
 # Evento 
