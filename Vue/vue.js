@@ -1,7 +1,18 @@
-[DIRETIVAS VUE.JS]
+[DIRETIVAS]
 # Executa apenas uma vez o elemento
 v-once
 # Interpreta o HTML
 v-html="html"
 # Escuta eventos 
 v-on:evento="função"
+
+[MODIFICADORES DE EVENTOS]
+# Evento 
+$event
+# Previnir comportamento padrão
+prevent
+# Parar propagação de evento
+stop
+# Eventos de teclado
+ex.: v-on:keyup.enter
+
