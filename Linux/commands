@@ -9,3 +9,6 @@ ln -sf /usr/bin/python3.6 /usr/bin/python
 
 # Instalar Xvfb
 dnf -y install xorg-x11-server-Xvfb
+
+# Recarregar configurações do httpd
+systemctl reload httpd
