@@ -3,3 +3,6 @@ sudo groupadd docker
 
 # Adicionar o usuário atual ao grupo docker.
 sudo usermod -aG docker <user>
+
+# Link simbólico
+ln -s <diretorio do link> <diretório acessado>
