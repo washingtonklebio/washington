@@ -5,4 +5,4 @@ sudo groupadd docker
 sudo usermod -aG docker <user>
 
 # Link simbólico
-ln -s <diretorio do link> <diretório acessado>
+ln -s <diretório apontado> <diretório acessado>
