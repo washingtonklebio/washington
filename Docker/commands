@@ -10,11 +10,17 @@ ln -s <diretório apontado> <diretório acessado>
 # Listar todos os contêineres
 docker ps -a
 
+# Listar todas as imagens
+docker images
+
 # Parar todos os contêineres
 docker stop [containerid]
 
 # Remover contêineres
 docker rm [containerid]
+
+# Remover imagens 
+docker rmi <nome da imagem>
 
 # Lançar serviços com docker compose 
 docker-compose up 
