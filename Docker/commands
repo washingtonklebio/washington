@@ -6,3 +6,17 @@ sudo usermod -aG docker <user>
 
 # Link simbólico
 ln -s <diretório apontado> <diretório acessado>
+
+# Listar todos os contêineres
+docker ps -a
+
+# Parar todos os contêineres
+docker stop [containerid]
+
+# Remover contêineres
+docker rm [containerid]
+
+# Lançar serviços com docker compose 
+docker-compose up 
+docker-compose up -d *Roda em background*
+docker-compose up -d --build
