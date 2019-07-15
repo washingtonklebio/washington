@@ -1,0 +1,27 @@
+Formato do crontab:
+[minutos] [horas] [dias do mês] [mês] [dias da semana] [usuário] [comando]
+
+- Minutos: informe números de 0 a 59;
+
+- Horas: informe números de 0 a 23;
+
+- Dias do mês: informe números de 0 a 31;
+
+- Mês: informe números de 1 a 12;
+
+- Dias da semana: informe números de 0 a 7;
+
+- Usuário: é o usuário que vai executar o comando (não é necessário especificá-lo se o arquivo do próprio usuário for usado);
+
+- Comando: a tarefa que deve ser executada.
+
+No lugar desses valores, você pode informar * (asterisco) para especificar uma execução constante. 
+
+Você também pode informar intervalos no preenchimento, separando os números de início e fim através de - (hífen).].
+Por exemplo, se no campo horas for informando 2-5, o comando relacionado será executado às 2, 3, 4 e 5 horas.
+E se o comando tiver que ser executado às 2 horas, entre 15 e 18 horas e às 22 horas? Basta informar 2,15-18,22. 
+Nestes casos, você separa os parâmetros por vírgula.
+
+crontab -e: Editar o arquivo atual do crontab e criar um, caso não exista;
+crontab -l: Mostra o conteúdo atual do crontab;
+crontab -r: Remove o arquivo atual do crontab.
