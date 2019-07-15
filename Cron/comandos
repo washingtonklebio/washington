@@ -21,7 +21,3 @@ Você também pode informar intervalos no preenchimento, separando os números d
 Por exemplo, se no campo horas for informando 2-5, o comando relacionado será executado às 2, 3, 4 e 5 horas.
 E se o comando tiver que ser executado às 2 horas, entre 15 e 18 horas e às 22 horas? Basta informar 2,15-18,22. 
 Nestes casos, você separa os parâmetros por vírgula.
-
-crontab -e: Editar o arquivo atual do crontab e criar um, caso não exista;
-crontab -l: Mostra o conteúdo atual do crontab;
-crontab -r: Remove o arquivo atual do crontab.
