@@ -12,3 +12,6 @@ dnf -y install xorg-x11-server-Xvfb
 
 # Recarregar configurações do httpd
 systemctl reload httpd
+
+# Agendamentos crontab
+cat /etc/crontab
