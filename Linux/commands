@@ -15,3 +15,13 @@ systemctl reload httpd
 
 # Agendamentos crontab
 cat /etc/crontab
+
+# Listar todos os processos php
+ps aux | grep php
+
+# Matar um processo 
+kill -9 "id_processo"
+
+# Ver processamento da máquina 
+top
+
