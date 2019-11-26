@@ -28,3 +28,5 @@ top
 # Descomparctar arquivos tar
 tar -vzxf nome_arquivo.tar.gz
 
+# Copiar dados de um servidor para a máquina local
+scp root@<IP_SERVIDOR>:<caminho do arquivo> <chaminho onde vai ficar na máquina local>
