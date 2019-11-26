@@ -5,4 +5,4 @@ sudo systemctl stop mysql
 mysqldump -d -u <user> -p <database> > <arquivo.sql>
 
 # Importação da estrutura gerada para o banco de dados
-mysql -u <user> <database> < <arquivo.sql>
+mysql -u <user> -p <database> < <arquivo.sql>
