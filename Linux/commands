@@ -33,3 +33,6 @@ scp root@<IP_SERVIDOR>:<caminho do arquivo> <chaminho onde vai ficar na máquina
 
 # Limpar dados de um arquivo
 echo '' > <arquivo>
+
+# Ajuste de bip linux
+xset b off
