@@ -36,3 +36,6 @@ echo '' > <arquivo>
 
 # Ajuste de bip linux
 xset b off
+
+# Monta todos os sistemas de arquivos especificados no arquivo /etc/fstab.
+mount -a
