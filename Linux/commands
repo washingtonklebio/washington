@@ -39,3 +39,6 @@ xset b off
 
 # Monta todos os sistemas de arquivos especificados no arquivo /etc/fstab.
 mount -a
+
+# Ver espaço em disco de uma máquina
+df -h
