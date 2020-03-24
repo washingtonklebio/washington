@@ -1,0 +1,23 @@
+# instalar o NVM
+
+--- Curl command:
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+
+--- Wget command:
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+
+--- Verifique o NVM na linha de comando
+
+command -v nvm
+
+--- Se estiver instalado, você receberá uma mensagem como:
+nvm
+
+--- Usando NVM
+
+nvm ls-remote
+
+
+--- Instalando alguma versão
+
+nvm install <version>
