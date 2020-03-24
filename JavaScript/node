@@ -21,3 +21,6 @@ nvm ls-remote
 --- Instalando alguma versão
 
 nvm install <version>
+
+--- Usar versão
+nvm use alias default <version>
