@@ -27,6 +27,12 @@ docker-compose up
 docker-compose up -d *Roda em background*
 docker-compose up -d --build
 
+# Ver informações do container
+docker inspect <nome do conteiner>
+
+# Listar networks
+docker network ls
+
 # Configuração de logs para acessar através do docker logs, podemos usar o comando docker logs id_ou_apelido_do_container
 RUN ln -sf /dev/stdout /var/log/nginx/access.log
 RUN ln -sf /dev/stderr /var/log/nginx/error.log
