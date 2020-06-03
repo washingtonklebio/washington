@@ -30,6 +30,9 @@ docker-compose up -d --build
 # Ver informações do container
 docker inspect <nome do conteiner>
 
+# Criar networks
+docker network create <nome>
+
 # Listar networks
 docker network ls
 
