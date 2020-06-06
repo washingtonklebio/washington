@@ -1,2 +1,13 @@
 # Aumentar tamanho limite do watch
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+# Atualizar versão do node 
+O módulo n facilita o gerenciamento de versões:
+
+sudo npm install n -g
+
+Para a última versão estável:
+sudo n stable
+
+Para a versão mais recente:
+sudo n latest
