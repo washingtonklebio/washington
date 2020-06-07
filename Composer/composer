@@ -1,0 +1,2 @@
+# Ignorar limite de memoria do composer ao instalar pacote
+COMPOSER_MEMORY_LIMIT=-1 composer require <pacote>
