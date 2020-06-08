@@ -1,0 +1,5 @@
+# Ver sql de consulta 
+
+\DB::enableQueryLog();
+<findWhere>
+dd(\DB::getQueryLog());
