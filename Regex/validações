@@ -9,3 +9,6 @@
 
 # Validação de CEP 
 /[0-9]{5}-[0-9]{3}/
+
+# Caracteres_ alfabéticos e pontuação
+/^[a-záàâãéèêíïóôõöúçñ.;:?!,'"_-]+$/igm
