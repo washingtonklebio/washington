@@ -54,3 +54,9 @@ GRANT ALL PRIVILEGES ON  `<BD_NAME>` . * TO  '<USERNAME>'@'<SERVER_HOSTNAME>' WI
 
 # selecionados
 GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, REFERENCES, INDEX, ALTER, CREATE TEMPORARY TABLES, LOCK TABLES, CREATE VIEW, EVENT, TRIGGER, SHOW VIEW, CREATE ROUTINE, ALTER ROUTINE, EXECUTE ON  `<BD_NAME>` . * TO  '<USERNAME>'@'<SERVER_HOSTNAME>' WITH GRANT OPTION ;
+
+# Checa se o login mysql é: auth_socket. Se for, troca para mysql_native_password
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'SUA_SENHA_ROOT';
+
+# Checa autenticação
+SELECT user,authentication_string,plugin,host FROM mysql.user;
