@@ -1,2 +1,5 @@
 // Gerar apk 
  npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+
+// Splash Screen no Android
+https://www.notion.so/Splash-Screen-no-Android-d1fc75844f5342abbad80db9eece6022
