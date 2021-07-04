@@ -42,3 +42,6 @@ RUN ln -sf /dev/stderr /var/log/nginx/error.log
 
 # Porta que o container será acessível
 EXPOSE 8080
+
+# Executar yarn em produção pelo docker sem instalar na máquina
+docker run -it --rm -v "$PWD":/app -w /app node yarn prod
